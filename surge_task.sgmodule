@@ -2,9 +2,17 @@
 #!desc=签到、提醒等定时任务 
 
 [MITM]
-hostname = api.m.jd.com, *.bilibili.com
+hostname = api.m.jd.com, *.bilibili.com,*.video.qq.com,passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com,ifac*.iqiyi.com,c.tieba.baidu.com,h5.bianlifeng.com,m.ctrip.com,user-api-prd-mx.wandafilm.com
 
 [Script]
 京东价格提醒 = type=cron,cronexp=5 0 * * *,script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js,wake-system=true,timeout=600
 Bilibili签到 = type=cron,cronexp=10 0 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js,script-update-interval=0
 Bilibili银瓜子转硬币 = type=cron,cronexp=10 0 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js,script-update-interval=0
+腾讯视频签到 = type=cron,cronexp= "30 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
+爱奇艺签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+苏宁签到 = type=cron,cronexp="31 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js
+贴吧签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js
+便利蜂= type=cron,cronexp= "1 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js
+滴滴= type=cron,cronexp= "1 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js
+携程= type=cron,cronexp=  "20 9 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/ctrip.js
+万达签到 = type=cron,cronexp=10 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js,wake-system=true
