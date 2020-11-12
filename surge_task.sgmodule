@@ -1,5 +1,5 @@
 #!name=MY
-#!desc=MY 2020年11月12日17:37:37
+#!desc=MY 2020年11月12日17:42:15
 
 [MITM]
 hostname = api.m.jd.com, *.bilibili.com,*.video.qq.com,passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com,ifac*.iqiyi.com,c.tieba.baidu.com,h5.bianlifeng.com,m.ctrip.com,user-api-prd-mx.wandafilm.com
