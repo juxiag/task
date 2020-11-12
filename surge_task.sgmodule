@@ -5,15 +5,8 @@
 hostname = api.m.jd.com, *.bilibili.com,*.video.qq.com,passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com,ifac*.iqiyi.com,c.tieba.baidu.com,h5.bianlifeng.com,m.ctrip.com,user-api-prd-mx.wandafilm.com
 
 [Script]
-#京东价格提醒 = type=cron,cronexp=5 0 * * *,script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js,wake-system=true,timeout=600
-#Bilibili签到 = type=cron,cronexp=10 0 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js,script-update-interval=0
-#Bilibili银瓜子转硬币 = type=cron,cronexp=10 0 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js,script-update-interval=0
-
-#00:30
 腾讯视频签到 = type=cron,cronexp= "30 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js,wake-system=true,timeout=600
-#09:00
 爱奇艺签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,wake-system=true,timeout=600
-#00:31
 苏宁签到 = type=cron,cronexp="31 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js,wake-system=true,timeout=600
 贴吧签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js,wake-system=true,timeout=600
 便利蜂= type=cron,cronexp="1 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js,wake-system=true,timeout=600
